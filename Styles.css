@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism:XROT,YROT@12,-1&display=swap');;
+
+/******** fonts ********/ 
+.main-nav a{
+    font-size:.99em
+}
+.main-nav{
+    margin-top:5px;
+}
+.main-nav a{
+    padding:10px,15px;
+    text-transform: uppercase;
+    text-align:right;
+    display: block;
+}
+ul{
+    list-style:none;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: minmax(230px, 1fr);
+    grid-gap:20px;
+    padding:20px;
+}
+
+.logo{
+    font-family: "Tilt Prism", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "XROT" 12,
+      "YROT" -1;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    border: 1px solid #13120f;
+    background-color:#c40101;
+    box-shadow: 0px 0px 14px 0px rgb(0,0,0,0.75);
+    border-radius: 5px;
+}
+#hero{
+    background-image: url(images/josh-harrison-jY_fTS7ZE98-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height:500px;
+    background-position-y: center;
+    background-position-x: center;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero h2{
+    color:rgb(200, 0, 0);
+    text-align: center;
+
+button{
+    padding:200px;
+}
+}
+.hero-title{
+font-family: "Tilt Prism", serif;
+font-optical-sizing: auto;
+font-weight: 400;
+font-style: normal;
+font-variation-settings:
+  "XROT" 12,
+  "YROT" -1;
+}
+
+
+.two h2,
+.two p {
+    font-family: "Henny Penny", system-ui;
+  font-size:large
+
+}
+
+/*------ Responsive images ------*/
+
+img {
+    width:100%;
+}
+/*------ end Responsive images ------*/
+/*=====================================
+        CSS GRID RULES
+=====================================*/
+
+/* tablet media query****************/
+@media screen and (min-width: 764px) {
+    .wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(230px, 1fr));
+        grid-gap:20px;
+        padding:20px;
+    }
+    .header{
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        
+        .header{
+            width:80%;
+            margin: 0 auto;
+            max-width: 1150px;
+        }
+    }
+}
+
+/* desktop media query****************/
+@media screen and (min-width: 1280px) {
+    .wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(230px, 1fr));
+        grid-gap:20px;
+        padding:20px;
+        
+        .header{
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+            .header{
+                width:80%;
+                margin: 0 auto;
+                max-width: 1150px;
+            }
+        }
+    }
+}
+/*------ End Large display media query ------*/
