@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism:XROT,YROT@12,-1&display=swap');;
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 /******** fonts ********/ 
 .main-nav a{
@@ -25,13 +25,9 @@ ul{
 }
 
 .logo{
-    font-family: "Tilt Prism", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-variation-settings:
-      "XROT" 12,
-      "YROT" -1;
+    font-family: "Bebas Neue", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 .header{
     display: flex;
@@ -39,12 +35,12 @@ ul{
     padding-top: .5em;
     padding-bottom: .5em;
     border: 1px solid #13120f;
-    background-color:#c40101;
+    background-color:#E5E7E6;
     box-shadow: 0px 0px 14px 0px rgb(0,0,0,0.75);
     border-radius: 5px;
 }
 #hero{
-    background-image: url(images/josh-harrison-jY_fTS7ZE98-unsplash.jpg);
+    background-image: url(photos/Remedy’s-creative-director-Sam-Lake-confirmed-the-existence-of-Remedy-Connected-Universe-cover.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     min-height:500px;
@@ -57,7 +53,7 @@ ul{
     justify-content: center;
 }
 .hero h2{
-    color:rgb(200, 0, 0);
+    color:#D10000;
     text-align: center;
 
 button{
@@ -65,13 +61,9 @@ button{
 }
 }
 .hero-title{
-font-family: "Tilt Prism", serif;
-font-optical-sizing: auto;
-font-weight: 400;
-font-style: normal;
-font-variation-settings:
-  "XROT" 12,
-  "YROT" -1;
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 
